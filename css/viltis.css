@@ -212,7 +212,12 @@ body     { pointer-events: none; }
 .bottomFace {
         width: 700px;
         height: 700px;
-		background:#CC2738
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#e05f6c), to(#8c1b26));
+    background: -webkit-radial-gradient(#e05f6c, #8c1b26);
+    background:    -moz-radial-gradient(#e05f6c, #8c1b26);
+    background:      -o-radial-gradient(#e05f6c, #8c1b26);
+    background:         radial-gradient(#e05f6c, #8c1b26);
+    -webkit-font-smoothing: antialiased;
 }
 
 .rightFace,
